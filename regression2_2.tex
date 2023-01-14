@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Firms features regression table \label{reg1}}
+\begin{tabular}{l*{2}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         \\
+\midrule
+Market\_Return\_per\_Country&       0.777\sym{***}&       0.777\sym{***}\\
+                    &     (0.100)         &     (0.031)         \\
+\addlinespace
+Constant            &       0.012         &       0.012         \\
+                    &     (0.068)         &     (0.059)         \\
+\midrule
+Observations        &        1167         &        1167         \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Market regression table \label{reg1}}
+\begin{tabular}{l*{1}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}         \\
+\midrule
+Market\_Return\_per\_Country&       0.777\sym{***}\\
+                    &     (0.100)         \\
+\addlinespace
+Constant            &       0.012         \\
+                    &     (0.068)         \\
+\midrule
+Observations        &        1167         \\
+\bottomrule
+\multicolumn{2}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
