@@ -1,4 +1,4 @@
-# Solvay Master Thesis: 
+# Solvay Master Thesis
 ###### "The financial impact of Covid-19: a sectoral and geographical event study of the performance and resilience of portfolios composed of European ESG best-in-class stocks"
 
 ### Abstract: 
